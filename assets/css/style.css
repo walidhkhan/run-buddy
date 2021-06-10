@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
     /* more on this crazy alphanumerical value in a minute! */
     color: #39a6b2;
@@ -15,6 +21,7 @@ body {
     font-size: 36px;
     color: #fce138;
     margin: 0;
+    display: inline;
   }
   
   header a {
@@ -35,20 +42,6 @@ body {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 22px;
-  }
-  
-  header h1 {
-    font-weight: bold;
-    font-size: 36px;
-    color: #fce138;
-    margin: 0;
-    display: inline;
-  }
-  
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
   }
   
   footer {
@@ -123,11 +116,12 @@ body {
   margin: 0 5px;
 }
 
-.hero-from button {
+.hero-form button {
   color: #fce138;
   background-color: #024e76;
   border: none;
   padding: 10px 20px;
   font-size: 16px;
 }
+
 /* HERO STYLES END */
